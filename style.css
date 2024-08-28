@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #fceddd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
 }
 
 #LaGarrafa{
@@ -123,10 +126,14 @@ tr{
 footer {
     background: #0055A4;
     color: #fff;
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
 }
 
 .contacto{
 text-decoration: underline;
+}
+
+main{
+    flex: 1;
 }
