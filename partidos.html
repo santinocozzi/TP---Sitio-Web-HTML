@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proximos Partidos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="ProximosPartidos">PROXIMOS PARTIDOS</h1>
+        <nav>
+            <a href="index.html" class="botonesHeader">Inicio</a>
+            <a href="partidos.html" class="botonesHeader">Partidos</a>
+        </nav>
+    </header>
+    <main>
+        <p id="proxPartidos">Calendario de partidos de la GARRAFA:</p>
+            <section class="calendario">
+                    <div class="filtros">
+                        <button id="filtro-todos">Todos</button>
+                        <button id="filtro-ganado">Ganados</button>
+                        <button id="filtro-empatado">Empatados</button>
+                        <button id="filtro-perdido">Perdidos</button>
+                    </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Rival</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-resultado="ganado">
+                            <td>01/05/2024</td>
+                            <td>La Furgoneta</td>
+                            <td>2-1</td>
+                        </tr>
+                        <tr data-resultado="empatado">
+                            <td>24/05/2024</td>
+                            <td>Rape</td>
+                            <td>1-1</td>
+                        </tr>
+                        <tr data-resultado="ganado">
+                            <td>08/06/2024</td>
+                            <td>La Membresia</td>
+                            <td>3-1</td>
+                        </tr>
+                        <tr data-resultado="empatado">
+                            <td>13/06/2024</td>
+                            <td>La Ceramica</td>
+                            <td>0-0</td>
+                        </tr>
+                        <tr data-resultado="perdido">
+                            <td>08/08/2024</td>
+                            <td>La Tusca</td>
+                            <td>0-1</td>
+                        </tr>
+                        <tr data-resultado="empatado">
+                            <td>23/08/2024</td>
+                            <td>Rape</td>
+                            <td>1-1</td>
+                        </tr>
+                        <tr data-resultado=>
+                            <td>05/09/2024</td>
+                            <td>La Liria</td>
+                            <td>A definir</td>
+                        </tr>
+                        <tr data-resultado=>
+                            <td>16/09/2024</td>
+                            <td>La Membresia</td>
+                            <td>A definir</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    </main>
+    <footer>
+        <p>La Garrafa - 2024</p>
+        <p id="contacto"><a href="#">Contacto</a></p>
+    </footer>    
+</body>
+</html>

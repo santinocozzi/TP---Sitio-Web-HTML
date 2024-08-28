@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fceddd;
+}
+
+#LaGarrafa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ProximosPartidos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+}
+
+.botonesHeader{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 200ms transform ease-in-out;
+    cursor: pointer;
+    border: transparent;
+    
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+
+.botonesHeader:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+    transition: 200ms transform ease-in-out;
+    cursor: pointer;
+    border: transparent;
+}
+
+#Bienvenida{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 50px;
+    color: #333;
+    text-align: center;
+}
+
+#proxPartidos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: #333;
+    text-align: center;
+}
+
+.historia {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+#p1{
+    margin-bottom: 0;
+}
+
+.jugadores {
+    background: #E5E5E5;
+    padding: 20px;
+    text-align: center;
+}
+
+.jugadores ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.jugadores li {
+    margin: 10px 0;
+}
+
+img {
+    vertical-align: middle;
+    width: 40%;
+}
+
+.calendario table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.calendario th, .schedule td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.calendario th {
+    background: #0f8350;
+    color: #fff;
+    
+}
+
+footer {
+    background: #0055A4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+}
+
+footer {
+    background: #0055A4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.contacto{
+text-decoration: underline;
+}
